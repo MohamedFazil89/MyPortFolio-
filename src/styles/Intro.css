@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.intro-container{
+    margin: 1%;
+    margin-top: 6%;
+    display: flex;
+    animation: blur-in 1.3s ease-in-out;
+
+}
+
+.intro-container > .text-details > p:first-child{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+/* 
+.intro-container > p span{
+    background: linear-gradient(red, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+} */
+
+
+.intro-container > .text-details > h1{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-top: 1%;
+    margin-left: 3%;
+    transition: all .5s;
+}
+
+.intro-container > .text-details > .title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 3%;
+    width: 70%;
+    background: linear-gradient(silver, pink);
+    background-clip: text;
+    color: transparent;
+    margin-top: 1.5%;
+
+
+}
+
+.Button{
+    display: flex;
+}
+.Button button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin: 2rem;
+    padding: 20px 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: .3s;
+}
+.CV{
+    background: linear-gradient(red, purple);
+    box-shadow: 5px 5px 10px black;
+}
+.Hire{
+    background: linear-gradient(rgb(26, 26, 26), rgb(30, 30, 30));
+    box-shadow: 5px 5px 10px black;
+}
+.Button button:active{
+    transform: translateY(4px);
+    box-shadow: 0 0 0 black ;;
+}
+
+.social{
+    display: flex;
+    /* justify-content: left; */
+    margin: 40px;
+    transition: all .5s;
+    filter: drop-shadow(0 0 10px black);
+    width: fit-content;
+
+}
+
+.social > svg{
+    margin: 0 20px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.social > svg:hover{
+    filter: drop-shadow(0 0 15px white);
+    transform: translateY(-5px);
+
+
+
+}
+
+.linkedin{
+    fill: white;
+
+}
+
+
+.git{
+    fill: white;
+}
+
+.image{
+    width: 90%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(red, rgba(0,0,0,0.5), white) ;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    transition:  .6s;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px red);
+   
+}
+
+/* .image:hover{
+    filter: drop-shadow(0 0 10px red) blur(0px);
+
+} */
+
+@keyframes blur-in {
+    0% {
+    filter: drop-shadow(0 0 10px red) blur(610px);
+    }
+    100% {
+    filter: drop-shadow(0 0 10px red) blur(0px);
+
+    }
+    
+}
+
+@media screen and (max-width: 1111px) {
+    .image{
+        width: 80%;
+    }
+
+    .intro-container > .text-details > h1{
+        font-size: 4rem;
+    }
+
+    .Button > button{
+        font-size: 1rem;
+    }
+    
+}
