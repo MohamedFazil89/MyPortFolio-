@@ -1,6 +1,7 @@
 import React from "react"
 import '../styles/Intro.css'
 import Image from "../assets/coolboy.png";
+// import Image from "../assets/cool anime  boy 95b28c39-eda8-49ec-a0a7-2df5537a59af_removed.png"
 
 
 function Intro(props) {

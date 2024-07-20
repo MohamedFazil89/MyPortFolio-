@@ -1,15 +1,16 @@
-import React  from "react";
-import Logo from "../assets/F-removebg-preview.png"
+import Reac  from "react";
+// import Logo from "../assets/F-removebg-preview.png"
 import '../styles/Navbar.css';
 
 function Navbar(){
-    // const [width, setWidth] = useState(0);
 
     // function handelMenu(){
     //     const widths = width === 0 ? 20 : 0;
     //     setWidth(widths);
         
     // }
+ 
+
     return(
         <nav>
             <input type="checkbox" id="slidebar-action"/>
@@ -24,7 +25,8 @@ function Navbar(){
 
             </ul>
             <ul className="Nabbar">
-                <li><img src={Logo} alt="Logo"  className="logo" /></li>
+                {/* <li><img src={Logo} alt="Logo"  className="logo" /></li> */}
+                <li className="Role"></li>
                 <li className="leftbar">Home</li>
                 <li className="leftbar">About</li>
                 <li className="leftbar">Service</li>
