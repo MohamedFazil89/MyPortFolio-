@@ -1,4 +1,4 @@
-import Reac  from "react";
+import React  from "react";
 // import Logo from "../assets/F-removebg-preview.png"
 import '../styles/Navbar.css';
 
