@@ -178,3 +178,29 @@
     }
     
 }
+
+
+@media screen and (max-width: 500px) {
+    .image{
+        display: none;
+    }
+    .intro-container > .text-details > h1{
+        font-size: 2rem;
+    }
+    .intro-container > .text-details > .title{
+        font-size: .9rem;
+    }
+    .Button > button{
+        font-size: .5rem;
+    }
+
+    .social{
+        margin: 0;
+    }
+
+    .social > svg{
+        width: 1.5rem;
+        /* margin: 0; */
+    }
+    
+}
