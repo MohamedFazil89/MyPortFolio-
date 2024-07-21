@@ -21,7 +21,6 @@ body{
                 0 0 60px red,
                 0 0 100px red;
     animation: colors 5s infinite;
-    margin: auto;
   
 
 }
@@ -38,7 +37,7 @@ body{
 
 .curser::before{
     content: "";
-    position: absolute;
+    position: fixed;
     background-color: red;
     border-radius: 50%;
     width: 50px;
