@@ -58,7 +58,7 @@
     cursor: pointer;
     background-color: transparent;
     transition: all .5s;
-    box-shadow: 2px 2px 2px magenta;
+    box-shadow: 2px 2px 2px black;
     transform: translateY(-4px);
 
 }

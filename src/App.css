@@ -5,5 +5,50 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: white;
+    
 
 }
+
+.curser{
+    position: fixed;
+    z-index: 999;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    box-shadow: 0 0 20px red,
+                0 0 60px red,
+                0 0 100px red;
+    animation: colors 5s infinite;
+    margin: auto;
+  
+
+}
+
+@keyframes colors {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+    
+}
+
+.curser::before{
+    content: "";
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    opacity: .2;
+    transform: translate(-15px, -15px);
+
+
+}
+
+
+/* source code */
+
