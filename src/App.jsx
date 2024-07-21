@@ -12,6 +12,9 @@ function App() {
      title="I'm a Designer, Developer, and Innovator with a passion for creating impactful digital experiences."
       />
       <Projects />
+
+     
+      
       
 
 

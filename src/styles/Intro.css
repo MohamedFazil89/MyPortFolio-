@@ -135,18 +135,28 @@
 /* Classes */
 
 .autoShown{
-    animation: autoShown 1.3s both;
-    animation-timeline: view(70% 5%);
+    animation: autoShown 1.3s  both;
+    animation-timeline: view(60% auto);
 }
 
 /* Animations */
 @keyframes autoShown {
-    from{
+    0%{
         opacity: 0;
-        transform: translateY(-10px) scale(0.1);
-    }to{
+        transform: translateY(2px) scale(0.1);
+        filter: blur(40px);
+    }
+
+    85%, 75%{
+        opacity: 1;
+        filter: blur(0);
+    }
+    
+    
+    100%{
         opacity: 1;
         transform: translateY(0px) scale(1);
+        filter: blur(0px);
     }
     
 }

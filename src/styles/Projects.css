@@ -6,7 +6,7 @@
 }
 
 .Projects{
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -29,9 +29,12 @@
     display: flex;
     margin: 1.5rem;
     flex-basis: 100%;
-    background-color: gray;
+    /* background-color: gray; */
     justify-content: flex-start;
     align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgb(30, 30, 30);
+    margin-top: 4rem;
 
 }
 
@@ -39,28 +42,68 @@
     display: flex;
     width: 25%;
     height: 100%;
+    /* background-color: red; */
+    filter: drop-shadow(1px 1px 1px white);
 }
 
+.Project-preview{
+    /* width: fit-content; */
+    margin-top: 1rem;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-family: "Gruppo", sans-serif;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all .5s;
+    box-shadow: 2px 2px 2px magenta;
+    transform: translateY(-4px);
+
+}
+
+.Project-preview:hover{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background: linear-gradient(red, purple);
+    color: transparent;
+    background-clip: text;
+
+}
+.Project-preview:active{
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(0);
+
+
+}
 
 
 .Project-info{
     display: flex;
     flex-direction: column;
+    margin: 1rem;
 
 }
 
 .Project-title{
     position: absolute;
     font-size: 3.5rem;
-    top: 30px;
+    top: 10px;
     /* background-color: #fff; */
     font-family: "Gruppo", sans-serif;
     font-weight: bolder;
+    background: linear-gradient(red, blue);
+    background-clip: text;
+    color: transparent;
 
 }
 
 .Project-description{
     font-size: 1.4rem;
     font-family: "Gruppo", sans-serif;
+    background: linear-gradient(pink, white);
+    background-clip: text;
+    color: transparent;
+    margin-top: 2.5rem;
 
 }

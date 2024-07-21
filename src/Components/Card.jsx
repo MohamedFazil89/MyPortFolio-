@@ -1,13 +1,12 @@
 import React from "react";
 import "../styles/Projects.css";
-import Image from "../assets/coolboy.png"
 
 
-export default function Card(){
+export default function Card(props){
     return(
         <>
-        <div className="Project-card">
-                    <img className="Project-image" src={Image} alt="RR" />
+        <div className="Project-card autoShown" style={{ flexDirection:props.row}}>
+                    <img className="Project-image" src={props.Image} alt="RR" />
                     <div className="Project-info">
                     <h2 className="Project-title">Project Title</h2>
                     <p className="Project-description">
@@ -18,6 +17,7 @@ export default function Card(){
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
 
                         </p>
+                        <button className="Project-preview">Preview</button>
                     </div>
                 </div>
         </>

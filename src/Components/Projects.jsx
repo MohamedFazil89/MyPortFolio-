@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Projects.css";
 import Card from "./Card";
+import Image1 from '../assets/dog.png'
 
 
 
@@ -9,10 +10,11 @@ export default function Projects(){
         <div className="Projects">
             <p className="Project-section">Selected Works</p>
             <div className="Project-container">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <Card row="row-reverse" Image={Image1} />
+                <Card row="row" Image={Image1}/>
+                <Card row="row-reverse" Image={Image1} />
+                <Card row="row" Image={Image1}/>
+
                 
             </div>
             
