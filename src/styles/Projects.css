@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Projects{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.Project-section{
+    margin: auto;
+    font-size: 2.5rem;
+    font-family: "Gruppo", sans-serif;
+
+}
+
+.Project-container{
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+}
+.Project-card{
+    position: relative;
+    display: flex;
+    margin: 1.5rem;
+    flex-basis: 100%;
+    background-color: gray;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.Project-image{
+    display: flex;
+    width: 25%;
+    height: 100%;
+}
+
+
+
+.Project-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Project-title{
+    position: absolute;
+    font-size: 3.5rem;
+    top: 30px;
+    /* background-color: #fff; */
+    font-family: "Gruppo", sans-serif;
+    font-weight: bolder;
+
+}
+
+.Project-description{
+    font-size: 1.4rem;
+    font-family: "Gruppo", sans-serif;
+
+}
