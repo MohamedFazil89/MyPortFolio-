@@ -5,9 +5,33 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: white;
-    
-
 }
+
+body::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* animation: bgcolor 1.3s  ease-in-out infinite; */
+   
+    
+}
+
+@keyframes bgcolor {
+    0%{
+        filter: hue-rotate(0deg) blur(100px);
+    }
+    100%{
+        filter: hue-rotate(360deg) blur(0px);
+    }
+
+    
+}
+
+
 
 .curser{
     position: fixed;
@@ -21,6 +45,7 @@ body{
                 0 0 60px red,
                 0 0 100px red;
     animation: colors 5s infinite;
+    transform: translate(50px 50px);
   
 
 }
