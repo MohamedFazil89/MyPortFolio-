@@ -20,6 +20,11 @@
 
 }
 
+svg{
+    animation: blur-in-left 1.3s ease-in-out;
+
+}
+
 @keyframes blur-in-left {
     0%{
         opacity: 0;

@@ -1,7 +1,6 @@
 import React from "react"
 import '../styles/Intro.css'
 import Image from "../assets/coolboy.png";
-// import Image from "../assets/cool anime  boy 95b28c39-eda8-49ec-a0a7-2df5537a59af_removed.png"
 
 
 function Intro(props) {
@@ -13,7 +12,7 @@ function Intro(props) {
             <p className="title">{props.title}</p>
             <div className="Button">
             <button className="CV">Download CV</button>
-            <button className="Hire">Hire Me Now</button>
+            <button className="Hire">Hire Me</button>
 
             </div>
            <div className="social">
