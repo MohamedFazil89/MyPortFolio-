@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from './Layout';
+import About from './Pages/About';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
     path: "Services",
     element:<Services />
   },
+  {
+    path: "About",
+    element: <About/>
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

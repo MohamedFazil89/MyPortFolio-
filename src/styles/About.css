@@ -1,0 +1,43 @@
+.About-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.About-container > h1{
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 1rem;
+
+}
+
+.About-container > h1 span {
+    animation: letter .5s ease-in 1;
+    text-shadow: 0 0 10px lightblue;
+    color: red;
+}
+
+@keyframes letter {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+        letter-spacing: .2rem;
+
+    }
+    50%{
+        opacity: .3;
+        transform: translateY(0);
+        letter-spacing: .5rem;
+
+    }
+    35%{
+        opacity: .5;
+        transform: translateY(-110px);
+        
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+        letter-spacing: 1rem;
+    }
+    
+}

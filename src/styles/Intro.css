@@ -69,21 +69,9 @@ svg{
 
 }
 
-p, h1{
-    animation: colors 5s infinite;
-
-}
 
 
-@keyframes colors {
-    0%{
-        filter: hue-rotate(0deg);
-    }
-    100%{
-        filter: hue-rotate(360deg);
-    }
-    
-}
+
 .intro-container > .text-details > .title{
     font-size: 1.1rem;
     font-weight: 600;
@@ -114,7 +102,7 @@ p, h1{
     transition: .3s;
 }
 .CV{
-    background: linear-gradient(red, purple);
+    background: linear-gradient(lightblue, blue);
     box-shadow: 5px 5px 10px black;
 }
 .Hire{
@@ -144,8 +132,9 @@ p, h1{
 }
 
 .social > svg:hover{
-    filter: drop-shadow(0 0 15px white);
+    filter: drop-shadow(0 0 15px lightblue);
     transform: translateY(-5px);
+    fill: blue;
 
 
 
@@ -166,19 +155,23 @@ p, h1{
     object-fit: cover;
     margin: 0;
     padding: 0;
-    background: linear-gradient(red, rgba(0,0,0,0.5), white) ;
+    background: linear-gradient(blue, rgba(0,0,0,0.5), white) ;
     border-radius: 50%;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 100px black inset;
     transition:  .6s;
     cursor: pointer;
-    filter: drop-shadow(0 0 10px red);
+    filter: drop-shadow(0 0 10px blue);
+    opacity: .7;
+
    
 }
 
-/* .image:hover{
-    filter: drop-shadow(0 0 10px red) blur(0px);
+.image:hover{
+    filter: drop-shadow(0 0 10px blue) saturate(1);
+    transform: scale(1.1);
 
-} */
+
+}
 
 /* Animations and classes */
 

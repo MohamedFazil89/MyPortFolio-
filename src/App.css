@@ -5,6 +5,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: white;
+    overflow: hidden;
 }
 
 body::before{
@@ -36,14 +37,14 @@ body::before{
 .curser{
     position: fixed;
     z-index: 999;
-    background-color: red;
+    background-color: blue;
     border-radius: 50%;
     width: 20px;
     height: 20px;
     pointer-events: none;
-    box-shadow: 0 0 20px red,
-                0 0 60px red,
-                0 0 100px red;
+    box-shadow: 0 0 20px blue,
+                0 0 60px blue,
+                0 0 100px blue;
     animation: colors 5s infinite;
     transform: translate(50px 50px);
   
@@ -63,7 +64,7 @@ body::before{
 .curser::before{
     content: "";
     position: fixed;
-    background-color: red;
+    background-color: blue;
     border-radius: 50%;
     width: 50px;
     height: 50px;

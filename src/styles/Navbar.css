@@ -73,9 +73,9 @@ li > .Link{
 }
 
 .Nabbar>li:hover, .Link:hover {
-    color: rgba(255, 0, 0, 0.631);
+    color: rgba(0, 251, 255, 0.631);
     transform: translateY(-4px);
-    text-shadow: 0 0 10px red;
+    text-shadow: 0 0 10px lightblue;
 }
 
 .Nabbar>.Role {
@@ -108,11 +108,11 @@ li > .Link{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
     border-radius: 30px;
-    border: 2px solid rgba(255, 0, 0, 0.791);
-    filter: drop-shadow(0 0 10px red);
+    border: 2px solid rgba(0, 132, 255, 0.791);
+    filter: drop-shadow(0 0 10px rgb(0, 42, 255));
     font-size: 1.5rem;
     margin-top: 20px;
-    box-shadow: 0 0 10px black inset;
+    box-shadow: 0 0 10px lightblue inset;
 
 }
 
@@ -121,8 +121,8 @@ li > .Link{
 .Role::after {
     content: "Full Stack Developer";
     animation: changeContent 16s infinite;
-
 }
+
 
 
 @keyframes changeContent {
@@ -141,6 +141,7 @@ li > .Link{
 
     100% {
         content: " Full Stack Developer";
+
     }
 }
 
@@ -176,7 +177,7 @@ li > .Link{
     background-color: blue;
 }
 
-#slidebar-action {
+#slidebar-action, svg {
     display: none;
 }
 
