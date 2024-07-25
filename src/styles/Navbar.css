@@ -108,11 +108,11 @@ li > .Link{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
     border-radius: 30px;
-    border: 2px solid rgba(0, 132, 255, 0.791);
-    filter: drop-shadow(0 0 10px rgb(0, 42, 255));
+    border: 2px solid rgba(0, 179, 255, 0.791);
+    filter: drop-shadow(0 0 10px rgb(0, 195, 255));
     font-size: 1.5rem;
     margin-top: 20px;
-    box-shadow: 0 0 10px lightblue inset;
+    box-shadow: 0 0 10px rgb(0, 191, 255) inset;
 
 }
 

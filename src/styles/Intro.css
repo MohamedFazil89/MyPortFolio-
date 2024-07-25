@@ -25,6 +25,12 @@ svg{
 
 }
 
+.image-container{
+    /* position: fixed; */
+    transform: translateY(40px);
+    filter: drop-shadow(0 0 10px rgb(0, 181, 242));
+}
+
 @keyframes blur-in-left {
     0%{
         opacity: 0;
@@ -77,9 +83,6 @@ svg{
     font-weight: 600;
     margin-left: 3%;
     width: 70%;
-    background: linear-gradient(silver, pink);
-    background-clip: text;
-    color: transparent;
     margin-top: 1.5%;
 
 
@@ -96,18 +99,23 @@ svg{
     margin: 2rem;
     padding: 15px 25px;
     cursor: pointer;
-    color: white;
     font-size: 1.5rem;
     border-radius: 5px;
     transition: .3s;
+    border: 1px solid lightblue;
+
 }
 .CV{
-    background: linear-gradient(lightblue, blue);
+    /* background: linear-gradient(white, rgb(0, 188, 251)); */
+    background-color: transparent;
     box-shadow: 5px 5px 10px black;
+    color: white;
+
 }
 .Hire{
     background: linear-gradient(rgb(26, 26, 26), rgb(30, 30, 30));
     box-shadow: 5px 5px 10px black;
+    color: white;
 }
 .Button button:active{
     transform: translateY(4px);
@@ -270,6 +278,9 @@ svg{
     .Button > button{
         font-size: .5rem;
         padding: 10px 20px;
+    }
+    .image-container{
+        display: none;
     }
 
     .social{

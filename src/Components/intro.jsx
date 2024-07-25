@@ -1,6 +1,7 @@
 import React from "react"
 import '../styles/Intro.css'
 import Image from "../assets/coolboy.png";
+// import Earth from "../Earth";
 
 
 function Intro(props) {
@@ -27,6 +28,7 @@ function Intro(props) {
 </div>
 <div className="image-container">
     <img src={Image} alt="boy" className="image" />
+    {/* <Earth /> */}
 
 </div>
         </div>
