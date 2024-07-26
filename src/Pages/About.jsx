@@ -15,9 +15,11 @@ export default function About() {
             <p>Greetings, I am Mohamed Fazil, a dedicated web
                 and app developer with a passion for creating
                 futuristic and user-friendly web designs. Proficient
-                in HTML, CSS, JavaScript, and Python programming,
+                in <span style={{ textShadow: "0 0 10px red", fontWeight: "bold"}}>HTML</span>, 
+                <span style={{ textShadow: " 0 0 10px lightblue", fontWeight: "bold"}}>CSS</span>, 
+                <span style={{ textShadow: "0 0 10px yellow", fontWeight: "bold"}}>JavaScript</span>, and <span style={{ textShadow: "0 0 10px gold"}}>Python</span> programming,
                 I specialize in developing robust and innovative
-                solutions. Additionally, my skills extend to React Native
+                solutions. Additionally, my skills extend to <span style={{ textShadow: "0 0 10px  rgb(1, 192, 255)"}}>React Native </span>
                 for mobile app development. Throughout my academic journey
                 in Information Technology, I have actively participated in
                 hackathons, using these platforms to present innovative
