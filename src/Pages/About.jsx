@@ -5,8 +5,12 @@ import Navbar from "../Components/Navbar";
 
 export default function About() {
     return (
+        <>
+        <Navbar />
         <div className="About-container">
-            <Navbar />
+
+          
+            
             <h1><span>A</span><span>b</span><span>o</span><span>u</span><span>t</span></h1>
             <p>Greetings, I am Mohamed Fazil, a dedicated web
                 and app developer with a passion for creating
@@ -22,5 +26,6 @@ export default function About() {
                 of seamlessly blending creativity and functionality
                 in every project.</p>
         </div>
+        </>
     )
 }
