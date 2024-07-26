@@ -171,6 +171,9 @@ li > .Link{
     padding: 30px;
 
 }
+#slidebar-action{
+    display: none;
+}
 
 .SlideBar>li:hover,
 .close-menu:hover {
@@ -187,12 +190,14 @@ li > .Link{
 }
 
 @media screen and (max-width: 700px) {
-    #slidebar-action, svg {
+     svg {
         display: block;
     }
     .leftbar {
         display: none;
     }
+   
+  
 
     .menu {
         display: flex;
