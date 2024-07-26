@@ -2,7 +2,7 @@ import React from "react"
 import '../styles/Intro.css'
 import Image from "../assets/coolboy.png";
 // import Earth from "../Earth";
-
+import Resume from "../assets/Resume.pdf";
 
 function Intro(props) {
     return (
@@ -12,7 +12,7 @@ function Intro(props) {
             <h1>{props.fName} <span>{props.lName}</span></h1>
             <p className="title">{props.title}</p>
             <div className="Button">
-            <button className="CV">Download CV</button>
+            <a href="#" download={Resume} className="CV" >Download CV</a>
             <button className="Hire">Hire Me</button>
 
             </div>
