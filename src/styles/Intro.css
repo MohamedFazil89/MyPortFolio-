@@ -260,6 +260,12 @@ svg{
     .image{
         display: none;
     }
+
+    .Greet span{
+        font-size: 1rem;
+        margin: 10px;
+        /* color: red; */
+    }
     .intro-container{
         margin: 5px;
     }

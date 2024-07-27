@@ -37,14 +37,14 @@ body::before{
 .curser{
     position: fixed;
     z-index: 999;
-    background-color: blue;
+    background-color: transparent;
     border-radius: 50%;
     width: 20px;
     height: 20px;
     pointer-events: none;
-    box-shadow: 0 0 20px blue,
+    /* box-shadow: 0 0 20px blue,
                 0 0 60px blue,
-                0 0 100px blue;
+                0 0 100px blue; */
     animation: colors 5s infinite;
     transform: translate(50px 50px);
   
@@ -66,14 +66,23 @@ body::before{
     position: fixed;
     background-color: blue;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    opacity: .2;
-    transform: translate(-15px, -15px);
+    width: 40px;
+    height: 40px;
+    opacity: .5;
+    transform: translate(-10px, -10px);
 
 
 }
 
+@media screen and (max-width: 500px) {
+    .curser{
+        display: none;
+    }
+    .curser::before{
+        display: none;
+    }
+    
+}
 
 /* source code */
 

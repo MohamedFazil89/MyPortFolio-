@@ -13,9 +13,7 @@ export default function Projects(){
             <p className="Project-section">Selected Works</p>
             <div className="Project-container">
                 <Card row="row" Image={Image1} />
-                <Card row="row" Image={Image1}/>
-                <Card row="row" Image={Image1} />
-                <Card row="row" Image={Image1}/>
+                
 
                 
             </div>

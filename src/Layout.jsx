@@ -6,10 +6,14 @@ const Layout = ({ children }) => {
   const [mouseVisible, setMouseVisible] = useState(true);
 
   const handleMouseMove = (e) => {
-    setCoordinates({ 
+    setTimeout(() =>{
+      setCoordinates({ 
         pageX: e.clientX, 
         pageY: e.clientY,
      });
+
+    }, 100)
+    
   };
 
   const handleMouseOut = () => {

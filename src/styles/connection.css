@@ -1,14 +1,15 @@
-.connection-right{
+.connection-right {
     display: flex;
     flex-direction: column;
     position: fixed;
     bottom: 0px;
     left: 20px;
+    z-index: 1;
 
 }
 
 
-.line{
+.line {
     width: 1px;
     height: 10rem;
     position: relative;
@@ -17,34 +18,28 @@
     filter: drop-shadow(0 0 5px blue);
 }
 
-.linkedin{
-    fill: rgba(173, 216, 230, 0.445);
+.linkedin, .git {
+    fill: lightblue;
     cursor: pointer;
     transition: .5s;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.git{
-    fill: rgb(61, 59, 59);
-    cursor: pointer;
-    transition: .5s;
-    margin-top: 10px;
-    margin-bottom: 10px;
 
-}
 
-.linkedin:hover{
+.linkedin:hover {
     transform: translateY(-10px) scale(1.1);
     fill: aqua;
 }
 
-.git:hover{
-    transform: translateX(20px) scale(1.1);
+.git:hover {
+    transform: translateY(-10px) scale(1.1);
     fill: khaki;
 
 }
-.connection-left{
+
+.connection-left {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -52,26 +47,28 @@
     right: 0;
     width: 12%;
     height: fit-content;
-        
+
 }
-.connection-left p{
+
+.connection-left p {
     transform: rotate(90deg);
     position: relative;
     bottom: 200px;
     font-family: "Gruppo", sans-serif;
     letter-spacing: 2px;
-    left: 40px;
+    left: 45px;
     text-shadow: 0 0 10px rgba(0, 255, 255, 0.384);
     cursor: pointer;
     transition: .5s;
 }
-.connection-left p:hover{
+
+.connection-left p:hover {
     transform: rotate(90deg) translateX(-10px);
-    color:aqua;
+    color: aqua;
 
 }
 
-.line-left{
+.line-left {
     width: 1px;
     height: 10rem;
     background-color: rgba(255, 255, 255, 0.5);
@@ -79,4 +76,18 @@
     position: relative;
     left: 120px;
 
+}
+
+
+/* Responsive code */
+
+/* @media screen and (max-width: 1800px) {
+   
+} */
+
+@media screen and (max-width: 500px) {
+    .connection-left, .connection-right {
+        display: none;
+    }
+    
 }

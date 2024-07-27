@@ -22,7 +22,7 @@ function Navbar(){
                 <li><Link to="/Services"  className="Link">Service</Link></li>
                 <li><Link to="/Portfolio"  className="Link">Portfolio</Link></li>
                 <li><Link to="/About" className="Link">About</Link></li>
-                <li><Link to="/" className="Link">Contact me</Link></li>
+                <li><Link to="/Contact" className="Link">Contact me</Link></li>
             </ul>
             <ul className="Nabbar">
                 {/* <li><img src={Logo} alt="Logo"  className="logo" /></li> */}

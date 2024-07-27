@@ -10,7 +10,7 @@ function Intro(props) {
                 {/* <BackGround /> */}
 
             <div className="text-details">
-                <p> <span>Hi! Friends</span> I'm</p>
+                <p className="Greet"> <span>Hi! Friends</span> I'm</p>
                 <h1>{props.fName} <span>{props.lName}</span></h1>
                 <p className="title">{props.title}</p>
                 <div className="Button">

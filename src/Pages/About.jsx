@@ -8,9 +8,6 @@ export default function About() {
         <>
         <Navbar />
         <div className="About-container">
-
-          
-            
             <h1><span>A</span><span>b</span><span>o</span><span>u</span><span>t</span></h1>
             <p>Greetings, I am Mohamed Fazil, a dedicated web
                 and app developer with a passion for creating
