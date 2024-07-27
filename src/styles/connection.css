@@ -67,7 +67,7 @@
 }
 .connection-left p:hover{
     transform: rotate(90deg) translateX(-10px);
-    text-shadow: 0 0 10px aqua;
+    color:aqua;
 
 }
 

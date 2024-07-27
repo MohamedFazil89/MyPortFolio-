@@ -2,10 +2,13 @@ import React from "react"
 import '../styles/Intro.css'
 import Image from "../assets/coolboy.png";
 // import Resume from "../assets/Resume.pdf";
+import BackGround from "../Background";
 
 function Intro(props) {
     return (
         <div className="intro-container">
+                <BackGround />
+
             <div className="text-details">
                 <p> <span>Hi! Friends</span> I'm</p>
                 <h1>{props.fName} <span>{props.lName}</span></h1>
