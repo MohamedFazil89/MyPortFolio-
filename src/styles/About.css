@@ -16,6 +16,8 @@
 .About-container > h1 span {
     animation: letter .5s ease-in 1;
     filter: drop-shadow(2px 2px 2px black);
+    font-family: "Gruppo", sans-serif;
+
 }
 .About-container  h1 span:nth-child(1){
     color: rgb(0, 132, 255);
@@ -28,6 +30,7 @@
     width: 10rem;
     height: 50px;
     color: white;
+    font-weight: bolder;
 }
 
 @keyframes letter {
@@ -62,6 +65,7 @@
         transform: translateY(100px);
         letter-spacing: .2rem;
 
+
     }
    
   
@@ -78,10 +82,12 @@
 
 .About-container p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 70%;
     margin: 1%;
     letter-spacing: .1rem;
     animation: letter-p 1.5s  1 cubic-bezier(0.075, 0.92, 0.165, 1);
+    font-family: "Gruppo", sans-serif;
+
 
 }
