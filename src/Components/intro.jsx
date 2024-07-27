@@ -2,12 +2,12 @@ import React from "react"
 import '../styles/Intro.css'
 import Image from "../assets/coolboy.png";
 // import Resume from "../assets/Resume.pdf";
-import BackGround from "../Background";
-
+// import BackGround from "../Background";
+// import Earth from "../Earth"
 function Intro(props) {
     return (
         <div className="intro-container">
-                <BackGround />
+                {/* <BackGround /> */}
 
             <div className="text-details">
                 <p> <span>Hi! Friends</span> I'm</p>
@@ -22,6 +22,7 @@ function Intro(props) {
             </div>
             <div className="image-container">
                 <img src={Image} alt="boy" className="image" />
+                {/* <Earth /> */}
 
             </div>
             

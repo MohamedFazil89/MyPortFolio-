@@ -7,19 +7,19 @@ const Earth = () =>{
    
     
     return(
-        <Canvas frameloop="demend" camera={{ position: [2,3,6], fov: 50, near: 0.1, far: 200}}>
+        <Canvas frameloop="demend" camera={{ position: [-2,3,6], fov: 50, near: 0.1, far: 200}}>
             <OrbitControls
             autoRotate
             autoRotateSpeed={0.5}
             enableZoom={false}
             enablePan={false}
-            reverseOrbit
+            
 
              />
 
             <ambientLight intensity={1.5} />
             <pointLight position={[10, 10, -10]} intensity={1.5} />
-            <primitive object={earth.scene} scale={2}  />
+            <primitive object={earth.scene} scale={3}  />
         </Canvas>
 
     )
