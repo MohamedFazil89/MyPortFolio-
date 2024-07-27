@@ -1,10 +1,9 @@
 import React from "react";
 import { Canvas} from "@react-three/fiber";
 import { useGLTF, OrbitControls } from "@react-three/drei";
-
+import "./Earth.css"
 const Earth = () =>{
-    const earth = useGLTF("./soulsucker_-_weaponcraft/scene.gltf");
-    earth.scene.rotateY = 0;
+    const earth = useGLTF("./earth_hologram/scene.gltf");
    
     
     return(
@@ -19,8 +18,8 @@ const Earth = () =>{
              />
 
             <ambientLight intensity={1.5} />
-            <pointLight position={[-10, -10, -10]} intensity={0.5} />
-            <primitive object={earth.scene} scale={1}  />
+            <pointLight position={[10, 10, -10]} intensity={1.5} />
+            <primitive object={earth.scene} scale={2}  />
         </Canvas>
 
     )

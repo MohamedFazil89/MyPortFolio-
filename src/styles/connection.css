@@ -21,12 +21,16 @@
     fill: rgba(173, 216, 230, 0.445);
     cursor: pointer;
     transition: .5s;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .git{
     fill: rgb(61, 59, 59);
     cursor: pointer;
     transition: .5s;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -62,7 +66,7 @@
     transition: .5s;
 }
 .connection-left p:hover{
-    transform: rotate(90deg) scale(1.05);
+    transform: rotate(90deg) translateX(-10px);
     text-shadow: 0 0 10px aqua;
 
 }

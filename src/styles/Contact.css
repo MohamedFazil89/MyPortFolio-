@@ -2,4 +2,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+}
+
+.Form-container{
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    padding: 3rem 4rem;
+    border-radius: 10px;
+}
+
+.input[type="text"]{
+    padding: 10px 40px;
+    background-color: transparent;
+    margin-top: 1.5rem;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.397);
+    transition: .5s;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.input[type="submit"]{
+    background-color: transparent;
+    margin-top: 1.5rem;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    /* background: linear-gradient(black, black); */
+    /* border-radius: 10px; */
+    font-size: 1rem;
+    box-shadow: 0 0 10px black;
+    filter: drop-shadow(0 0 10px aqua);
+}
+
+.input[type="text"]:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
 }

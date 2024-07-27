@@ -48,7 +48,7 @@ svg{
     margin: 3.5rem;
     margin-top: 6%;
     display: flex;
-    margin-left: 5rem;
+    margin-left: 3rem;
 
 }
 
@@ -151,12 +151,12 @@ svg{
     height: fit-content;
     margin: 0;
     padding: 0;
-    background: linear-gradient(blue, rgba(0,0,0,0.5), white) ;
+    background: linear-gradient(rgb(0, 140, 255), rgba(0,0,0,0.5), white) ;
     border-radius: 50%;
     box-shadow: 0 0 100px black inset;
     transition:  .6s;
     cursor: pointer;
-    filter: drop-shadow(0 0 10px blue);
+    filter: drop-shadow(0 0 10px rgb(0, 195, 255));
     opacity: .7;
 
    
@@ -222,7 +222,7 @@ svg{
         font-size: 4rem;
     }
 
-    .Button > button{
+    .Button > button, .Button a{
         font-size: 1rem;
     }
     
@@ -257,14 +257,17 @@ svg{
     .image{
         display: none;
     }
+    .intro-container{
+        margin: 5px;
+    }
     .intro-container > .text-details > h1{
         font-size: 2rem;
     }
     .intro-container > .text-details > .title{
         font-size: .9rem;
     }
-    .Button > button{
-        font-size: .5rem;
+    .Button > button, .Button a{
+        font-size: .4rem;
         padding: 10px 20px;
     }
     .image-container{
