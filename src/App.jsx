@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Intro from './Components/intro';
 import React from 'react';
 
+
 function App() {
   
   return (
@@ -20,7 +21,6 @@ function App() {
 
 
     
-
 
     </div>
   );

@@ -1,108 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Noto+Serif+Khitan+Small+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*   font-family: "Playfair Display", serif; */
+
 .About-container{
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    transition: .5s;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.About-container > h1{
-    font-size: 2.5rem;
-    text-align: center;
-    letter-spacing: 1rem;
-}
+    animation: autoShown 1.5s both;
+    animation-timeline: view(60% auto);
 
-.About-container > h1 span {
-    animation: letter .5s ease-in 1;
-    filter: drop-shadow(2px 2px 2px black);
-    font-family: "Gruppo", sans-serif;
 
-}
-.About-container  h1 span:nth-child(1){
-    color: rgb(0, 132, 255);
-}
-.Education{
-    letter-spacing: 2px;
-}
-
-.Education h1 span{
-    width: 10rem;
-    height: 50px;
-    color: white;
-    font-weight: bolder;
-}
-
-@keyframes letter {
-    0%{
-        opacity: 0;
-        transform: translateY(100px);
-        letter-spacing: .2rem;
-
-    }
-    50%{
-        opacity: .3;
-        transform: translateY(0);
-        letter-spacing: .4rem;
-
-    }
-    35%{
-        opacity: .5;
-        transform: translateY(-110px);
-        
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-        letter-spacing: 1rem;
-    }
     
 }
 
-@keyframes letter-p {
-    0%{
-        opacity: 0;
-        transform: translateY(100px);
-        letter-spacing: .2rem;
-
-
-    }
-   
-  
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-        letter-spacing: 0;
-    }
-    
+.About-container h1{
+    /* font-family: "Playfair Display", serif; */
+  font-family: "Noto Serif Khitan Small Script", serif;
+    font-size: 10rem;
+    margin: 1.5rem;
+    letter-spacing: 1.5rem;
+    position: relative;
 }
-
-
-
-
 .About-container p{
-    text-align: center;
-    font-size: 2rem;
-    width: 70%;
-    margin: 1%;
-    letter-spacing: .1rem;
-    animation: letter-p 1.5s  1 cubic-bezier(0.075, 0.92, 0.165, 1);
-    font-family: "Gruppo", sans-serif;
+    /* font-family: "Playfair Display", serif; */
+  font-family: "Noto Serif Khitan Small Script", serif;
+    font-size: 3rem;
+    position: relative;
+    top: 20rem;
 
-
-}
-
-/* Responsive */
-
-@media screen and (max-width: 500px) {
-    .About-container h1 span{
-        font-size: 1.5rem;
-    }
-    .About-container p{
-        font-size: 1rem;
-        text-align: start;
-        width: 90%;
-        height: 100%;
-    }
-    
 }

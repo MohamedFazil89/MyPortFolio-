@@ -1,11 +1,10 @@
 import React from "react"
 import '../styles/Intro.css'
 import Image from "../assets/coolboy.png";
-// import Resume from "../assets/Resume.pdf";
-// import BackGround from "../Background";
-// import Earth from "../Earth"
+
 function Intro(props) {
     return (
+        <>
         <div className="intro-container">
                 {/* <BackGround /> */}
 
@@ -25,9 +24,8 @@ function Intro(props) {
                 {/* <Earth /> */}
 
             </div>
-            
         </div>
-
+        </>
 
 
     )

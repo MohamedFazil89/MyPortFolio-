@@ -1,3 +1,7 @@
+/* font-family: "Open Sans", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/*   font-family: "Noto Serif Khitan Small Script", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Noto+Serif+Khitan+Small+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body{
     /* height: 100vh; */
     background-color: rgba(0, 0, 0, 0.939);
@@ -5,7 +9,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body::before{
