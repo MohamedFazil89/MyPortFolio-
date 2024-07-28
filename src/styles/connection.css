@@ -86,9 +86,7 @@
 } */
 
 @media screen and (max-width: 500px) {
-    .connection-left, .connection-right {
-        /* display: none; */
-    }
+    
 
     .line, .line-left{
         display: none;

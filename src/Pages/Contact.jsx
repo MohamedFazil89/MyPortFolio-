@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import "../styles/Contact.css"
 import Connection from "../Components/ConnectionLinks";
-import BackGround from "../Background";
+// import BackGround from "../Background";
 
 
 
@@ -15,7 +15,7 @@ export default function Contact() {
 
             <Navbar />
             <Connection />
-            <BackGround />
+            {/* <BackGround /> */}
             <div className="contact" >
                 <p>What's next?</p>
                 <h1>Get In Touch</h1>
