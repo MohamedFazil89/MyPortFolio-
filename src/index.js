@@ -11,7 +11,6 @@ import Layout from './Layout';
 import About from './Pages/About';
 import Projects from "./Components/Projects";
 import Contact from './Pages/Contact';
-import BackGround from './Background';
 
 const router = createBrowserRouter([
   {
@@ -32,7 +31,7 @@ const router = createBrowserRouter([
   },
   {
     path: "Contact",
-    element: <BackGround><Contact /></BackGround>
+    element: <Contact />
   }
 ]);
 

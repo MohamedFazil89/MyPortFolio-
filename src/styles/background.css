@@ -3,7 +3,7 @@
     height: 50px;
     /* border-radius: 0% 10% 100% 5%; */
     /* background-color: #fff; */
-    position: absolute;
+    position: fixed;
     /* opacity: .5; */
     top: 500px;
     left: 500px;
@@ -20,7 +20,7 @@
     height: 50px;
     /* border-radius: 0% 10% 100% 5%; */
     /* background-color: #fff; */
-    position: absolute;
+    position: fixed;
     /* opacity: .5; */
     top: 500px;
     right: 500px;

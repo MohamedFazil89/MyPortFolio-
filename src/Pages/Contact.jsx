@@ -15,6 +15,7 @@ export default function Contact() {
 
             <Navbar />
             <Connection />
+            <BackGround />
             <div className="contact" >
                 <p>What's next?</p>
                 <h1>Get In Touch</h1>

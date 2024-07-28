@@ -87,7 +87,22 @@
 
 @media screen and (max-width: 500px) {
     .connection-left, .connection-right {
+        /* display: none; */
+    }
+
+    .line, .line-left{
         display: none;
+    }
+    .linkedin, .git{
+    position: fixed;
+    z-index: 1000;
+    bottom: 10%;
+    left: 50%;
+    }
+
+    .git{
+        left: 40%;
+
     }
     
 }
