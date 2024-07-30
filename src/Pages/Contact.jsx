@@ -42,7 +42,7 @@ export default function Contact() {
        }
     
     try{
-        const response = await axios.post("http://localhost:3030/api/send", data);
+        const response = await axios.post("https://portfolio-api-jao0.onrender.com/api/send", data);
         console.log(response.data);
         alert("Message sent successfully");
         setEmail("")
