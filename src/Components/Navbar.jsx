@@ -20,13 +20,13 @@ function Navbar(){
             <label for="slidebar-action"><li className="close-menu"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li></label>
                 <li><Link to="/" className="Link">Home</Link></li>
                 <li><Link to="/Services"  className="Link">Service</Link></li>
-                <li><Link to="/Portfolio"  className="Link">Portfolio</Link></li>
+                <li><Link to="/Projects"  className="Link">Portfolio</Link></li>
                 <li><Link to="/About" className="Link">About</Link></li>
                 <li><Link to="/Contact" className="Link">Contact me</Link></li>
             </ul>
             <ul className="Nabbar">
                 {/* <li><img src={Logo} alt="Logo"  className="logo" /></li> */}
-                <li className="Role"></li>
+                <li className="Role"></li>  
                 <li className="leftbar"> <Link to="/" className="Link">Home</Link>  </li>
                 <li className="leftbar"> <Link to="/Services" className="Link"> Service</Link></li>
                 <li className="leftbar"><Link to="/Projects" className="Link"> Portfolio</Link></li>

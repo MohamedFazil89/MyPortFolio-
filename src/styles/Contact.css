@@ -14,6 +14,8 @@
     margin: 1%;
     font-family: "Gruppo", sans-serif;
     width: 70%;
+    text-align: center;
+
 
 }
 .contact > h1{
@@ -82,6 +84,7 @@ textarea{
     font-size: 1rem;
     color: white;
     height: 5rem;
+    
 
 
 }

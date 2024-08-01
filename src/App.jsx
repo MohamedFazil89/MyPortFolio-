@@ -12,7 +12,7 @@ function App() {
     <Navbar />
     <Intro fName="Mohamed"
      lName="Fazil" 
-     title="I'm a Designer, Developer, and Innovator with a passion for creating impactful digital experiences."
+     title="and Innovator with a passion for creating impactful digital experiences."
       />
 
      
