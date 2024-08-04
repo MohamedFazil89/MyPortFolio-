@@ -11,6 +11,10 @@ body{
     color: white;
     /* overflow: hidden; */
 }
+*::selection{
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
 
 body::before{
     content: " ";

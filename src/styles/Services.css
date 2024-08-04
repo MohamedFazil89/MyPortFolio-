@@ -1,17 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Noto+Serif+Khitan+Small+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
-/*   font-family: "Quicksand", sans-serif; */
 
-h1{
-    font-family: "Gruppo", sans-serif;
+/* Font family for the whole document */
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif;
     text-align: center;
     font-size: 2.5rem;
     font-weight: bolder;
     letter-spacing: .3rem;
-    /* font-family: "Quicksand", sans-serif; */
-    background: linear-gradient(white, transparent);
+    background: linear-gradient(white, rgba(128, 128, 128, 0.514), white, rgba(128, 128, 128, 0.414), white);
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-
-
+    animation: fadin 1.5s ease-in-out;
 }
 
+@keyframes fadin {
+    0% {
+        transform: scale(0.80);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.service-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 1rem;
+}
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.523); */
+}
+
+.service-card .Services {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+    background: linear-gradient(white, rgba(128, 128, 128, 0.5), white);
+    background-clip: text;
+    color: transparent; 
+    animation: blur-in 0.5s ease-in-out;
+    transition: 0.5s;
+    opacity: 1;
+    cursor: pointer;
+    filter: blur(5px);
+    font-weight: bolder;
+    position: relative;
+    box-shadow: 0 0 15px black;
+    padding: 2rem;
+}
+
+
+
+.Services .Description {
+    font-size: 1rem;
+    /* position: absolute; */
+    bottom: 0;
+    z-index: 999;
+    margin: 1rem;
+    background: linear-gradient(white, rgba(128, 128, 128, 0.5), white);
+    /* background: linear-gradient(blue, lightblue); */
+    background-clip: text;
+    color: transparent; 
+}
+
+
+.list .Services:hover {
+    filter: blur(0);
+}
+
+.list:hover .Services:not(:hover) {
+    opacity: 0.2;
+    filter: blur(5px);
+    transform: scale(1.2);
+}
+
+.list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+}
