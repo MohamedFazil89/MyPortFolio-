@@ -8,7 +8,8 @@ export default function About() {
         <>
         <Navbar />
         <div className="About-container">
-            <h1>About</h1>
+            <h1>About Me</h1>
+
            
         </div>
         

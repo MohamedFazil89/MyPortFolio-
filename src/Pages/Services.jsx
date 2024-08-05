@@ -5,9 +5,9 @@ import Service from "../Components/Services.js";
 
 export default function Services() {
   return (
-    <section className='Services'>
+    <section className='Services-container'>
       <Navbar />
-      <h1>Our Services</h1>
+      <h1>Our Services </h1>
       <div className="services-container">
         <div className="service-card">
           <div className="list">
