@@ -1,2 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Noto+Serif+Khitan+Small+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 /*   font-family: "Playfair Display", serif; */
+.About-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15%;
+  /* height: 100vh; */
+}
+.About-container b{
+  font-size: 12rem;
+  position: fixed;
+  z-index: -999;
+  /* color: rgba(245, 222, 179, 0.071); */
+  color: transparent;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.197);
+  /* filter: drop-shadow(0 0 10px blue); */
+  opacity: .2;
+}
+
+/* .About-container h1{
+  font-size: 3rem;
+  background: linear-gradient(red, blue);
+  color: transparent;
+  background-clip: text;
+} */
+.About-container p{
+  font-size: 2.5rem;
+  background: linear-gradient(white, red);
+  background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+  /* box-shadow: 0 0 1px white; */
+  padding: 10px 20px;
+  cursor: pointer;
+
+}
+.About-container p span{
+  background: linear-gradient(white, blue);
+  background-clip: text;
+  color: transparent;
+}
