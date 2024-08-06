@@ -9,7 +9,12 @@ export default function About() {
             <Navbar />
             <div className="About-container">
                 <b>About Me</b>
-                <p>I'm a Web developer |<span> App developer</span></p>
+                <p className="About-Title">I'm a Web developer |<span> App developer</span></p>
+
+                <section className="About">
+                <p>Hi Guys! My name is <span>Mohamed Fazil</span></p>
+
+                </section>
                 {/* <p>
                     Hi Guys! I am Mohamed Fazil, a web and app developer with a passion for creating
                     user-friendly, innovative designs. Proficient in HTML, CSS, JavaScript, and Python,
