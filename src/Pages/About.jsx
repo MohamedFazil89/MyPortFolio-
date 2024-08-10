@@ -11,10 +11,7 @@ export default function About() {
                 <b>About Me</b>
                 <p className="About-Title">I'm a Web developer |<span> App developer</span></p>
 
-                <section className="About">
-                <p>Hi Guys! My name is <span>Mohamed Fazil</span></p>
-
-                </section>
+                
                 {/* <p>
                     Hi Guys! I am Mohamed Fazil, a web and app developer with a passion for creating
                     user-friendly, innovative designs. Proficient in HTML, CSS, JavaScript, and Python,
@@ -27,6 +24,10 @@ export default function About() {
 
 
             </div>
+            <section className="About">
+                <p>Hi Guys! My name is <span>Mohamed Fazil</span></p>
+
+                </section>
             
 
         </>
