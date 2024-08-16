@@ -19,6 +19,7 @@
   opacity: .2;
 }
 
+
 /* .About-container h1{
   font-size: 3rem;
   background: linear-gradient(red, blue);
@@ -27,17 +28,20 @@
 } */
 .About-container .About-Title{
   font-size: 2.5rem;
-  background: linear-gradient(white, red);
+  background: linear-gradient(white, transparent);
   background-clip: text;
   color: transparent;
   font-weight: bolder;
   /* box-shadow: 0 0 1px white; */
   padding: 10px 20px;
   cursor: pointer;
+  /* color: white; */
+  /* text-shadow: 0 0 10px white; */
+
 
 }
 .About-container .About-Title span{
-  background: linear-gradient(white, blue);
+  background: linear-gradient(white, transparent);
   background-clip: text;
   color: transparent;
 }
@@ -45,9 +49,11 @@
 .About{
   display: flex;
   flex-wrap: wrap;
-  /* margin-top: 15rem; */
-  font-size: 1.4rem;
+  margin: 5rem;
+  font-size: 1.5rem;
   position: relative;
-  top: 50px;
+  top: 60px;
+  width: 50%;
+
 
 }
