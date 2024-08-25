@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/About.css"
 import Navbar from "../Components/Navbar";
+import ME from "../assets/ME.png";
 
 
 export default function About() {
@@ -29,11 +30,14 @@ export default function About() {
                     sit amet consectetur adipisicing elit. Commodi aut distinctio
                     quaerat aperiam molestiae neque quibusdam consequatur culpa,
                     recusandae aliquam asperiores voluptatum reiciendis nam
-                    omnis numquam expedita et ex deserunt?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    omnis numquam expedita et ex deserunt?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Dignissimos in itaque, neque dolor deleniti cumque eius
                     beatae numquam accusantium eveniet. Vitae quae animi
                     rem in doloribus numquam. Ducimus, impedit dolor.</p>
+                    
+            <img src={ME} alt="Fazil" />
+                
 
             </section>
 

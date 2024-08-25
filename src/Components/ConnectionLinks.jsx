@@ -17,7 +17,7 @@ export default function Connection() {
             <div className="line"></div>
         </div>
         <div className="connection-left">
-           <p>nmohammedfazil790@gmail.com</p>
+           <p onClick={() => window.location.href= "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=nmohammedfazil790@gmail.com"}>nmohammedfazil790@gmail.com</p>
             <div className="line-left"></div>
         </div>
         </>
