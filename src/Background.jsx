@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./styles/background.css"
-
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBitcoin } from '@fortawesome/free-brands-svg-icons';
 
 export default function BackGround({ children }) {
     const [Top, setTop] = useState(0);
@@ -38,14 +39,30 @@ export default function BackGround({ children }) {
 
     return (
         <div>
-            <div className="circle" style={{ top: Top, left: Left}} ></div>
-            <div className="circle" style={{ top: Top2, left: Left2}} ></div>
-            <div className="circle" style={{ top: Top3, left: Left3}} ></div>
-            <div className="circle" style={{ bottom: Top3, left: Left3}} ></div>
-            <div className="circle2" style={{ top: Top, right: Left}} ></div>
-            <div className="circle2" style={{ top: Top2, right: Left2}} ></div>
-            <div className="circle2" style={{ top: Top3, right: Left3}} ></div>
-            <div className="circle2" style={{ bottom: Top3, right: Left3}} ></div>
+            <div className="circle" style={{ top: Top, left: Left}} >
+            {/* <FontAwesomeIcon icon={faBitcoin} color="gold" opacity={0.2} scale={10} /> */}
+            </div>
+            <div className="circle" style={{ top: Top2, left: Left2}} >
+            {/* <FontAwesomeIcon icon={faBitcoin} color="gold" opacity={0.2} /> */}
+            </div>
+            <div className="circle" style={{ top: Top3, left: Left3}} >
+            {/* <FontAwesomeIcon icon={faBitcoin} color="gold" opacity={0.2} /> */}
+            </div>
+            <div className="circle" style={{ bottom: Top3, left: Left3}} >
+            {/* <FontAwesomeIcon icon={faBitcoin} color="gold" opacity={0.2} /> */}
+            </div>
+            <div className="circle2" style={{ top: Top, right: Left}} >
+            {/* <FontAwesomeIcon icon={faBitcoin} color="gold" opacity={0.2} /> */}
+            </div>
+            <div className="circle2" style={{ top: Top2, right: Left2}} >
+            {/* <FontAwesomeIcon icon={faBitcoin} color="gold" opacity={0.2} /> */}
+            </div>
+            <div className="circle2" style={{ top: Top3, right: Left3}} >
+            {/* <FontAwesomeIcon icon={faBitcoin} color="gold" opacity={0.2} /> */}
+            </div>
+            <div className="circle2" style={{ bottom: Top3, right: Left3}} >
+            {/* <FontAwesomeIcon icon={faBitcoin} color="gold" opacity={0.2} /> */}
+            </div>
             
 
             

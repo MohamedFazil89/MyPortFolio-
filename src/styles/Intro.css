@@ -27,6 +27,7 @@
     flex-direction: column;
 }
 
+
 svg{
     animation: blur-in-left 1.3s ease-in-out;
 
@@ -79,14 +80,14 @@ svg{
     margin-top: 1%;
     /* margin-left: 3%; */
     transition: all .5s;
-    background: linear-gradient(white, black);
-    /* width: fit-content; */
+    background: linear-gradient(black,white, black);
+    width: fit-content;
     background-clip: text;
     color: transparent;
     font-family: "Quicksand", sans-serif;
     text-align: center;
     /* text-shadow: 0 0 10px blue; */
-    /* filter: drop-shadow(0 0 10px blue); */
+    filter: drop-shadow(0 0 1px white);
 
     
 

@@ -13,7 +13,9 @@
     clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
     animation: colorsc 5s infinite cubic-bezier(0.075, 0.82, 0.165, 1);
     box-shadow: 0 0 10px black;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .circle2{
     width: 50px;
@@ -32,6 +34,9 @@
     /* filter: hue-rotate(40deg); */
     box-sizing: border-box;
     box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes colorsc {
