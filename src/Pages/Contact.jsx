@@ -17,6 +17,7 @@ export default function Contact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+    const [isloading, setIsLoading] = useState(false);
     // const [subject, setSubject] = useState("");
 
 
@@ -35,6 +36,7 @@ export default function Contact() {
 
     const handelSubmitData = async (e) =>{
        e.preventDefault();
+       setIsLoading(true);
        const data = {
         name: name,
         email: email,
@@ -44,13 +46,15 @@ export default function Contact() {
     try{
         const response = await axios.post("https://portfolio-api-jao0.onrender.com/api/send", data);
         console.log(response.data);
-        alert("Message sent successfully");
+        // alert("Message sent successfully");
+        setIsLoading(false);
         setEmail("")
         setMessage("")
         setName("");
     }catch(err){
         console.log(err);
         alert("Err")
+        setIsLoading(false)
     }
 
 }
@@ -69,7 +73,7 @@ export default function Contact() {
                     <input type="text" className="input Email" placeholder="Ex: youremail@gmail.com" name="email" value={email} onChange={handelSubmit} required/>
                     {/* <input type="text" className="input subject" placeholder="Subject/title" name="subject" value={subject} onChange={handelSubmit} required/> */}
                     <textarea rows={3} className="input message" placeholder="message" value={message} name="message" onChange={handelSubmit} required/>
-                    <input type="submit" className="input submit" value="Send!" />
+                    <input type="submit" className="input submit" value={isloading ? "Please wait...." : "Send"} />
 
 
                 </form>

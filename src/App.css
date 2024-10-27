@@ -4,7 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Noto+Serif+Khitan+Small+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body{
     /* height: 100vh; */
-    background-color: rgba(0, 0, 0, 0.939);
+    /* background-color: rgba(0, 0, 0, 0.939); */
+    background-color: black;
     /* background-color: black; */
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -94,3 +95,13 @@ body::before{
 
 /* source code */
 
+.circles{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(0, 0, 0, 1); */
+    filter: drop-shadow(0 0 10px white);
+    z-index: 90;
+}

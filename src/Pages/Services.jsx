@@ -1,12 +1,14 @@
 import Navbar from '../Components/Navbar';
 import "../styles/Services.css";
 import Service from "../Components/Services.js";
+import Model from "../Model.jsx"
 
 
 export default function Services() {
   return (
     <section className='Services-container'>
       <Navbar />
+      <Model />
       <h1>Our Services </h1>
       <div className="services-container">
         <div className="service-card">

@@ -55,20 +55,25 @@
     color: white;
     border: none;
     padding: 10px 20px;
-    background: linear-gradient(black, black);
+    background-color: black;
     /* border-radius: 10px; */
     font-size: 1rem;
     box-shadow: 0 0 10px black;
-    filter: drop-shadow(1px 1px 1px aqua);
+    /* filter: drop-shadow(1px 1px 1px aqua); */
     box-shadow: 1px 1px 5px black;
     transition: .5s;
+    cursor: pointer;
     /* border: 1px solid aqua; */
+    transition: .5s;
 }
 .input[type="submit"]:active{
     transform: translateY(10px);
     filter: drop-shadow(0 0 0 black);
-
-
+}
+.input[type="submit"]:hover{
+    background-color: gray;
+    
+    
 }
 
 .input[type="text"]:focus{
